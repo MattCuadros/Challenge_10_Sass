@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+$font-family-base: 'Indie Flower', cursive;
+// scss-docs-start theme-color-variables
+$primary:        #fff;
+$purple:        #cf649a;
+$dark:            #222;
+// scss-docs-end theme-color-variables
+
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "dark":       $dark,
+  "purple":     $purple
+) ;
+// scss-docs-end theme-colors-map
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+.btn-custom{
+    @extend .btn;
+    background-color: $purple;
+    color: $primary;
+    &:hover{
+        background-color: chocolate;
+    }
+}
+
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
