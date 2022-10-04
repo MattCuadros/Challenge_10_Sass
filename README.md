@@ -4,7 +4,8 @@
 
 In this Challenge, i used Sass, for modify a  **"Bootstrap Card"** Component.
 >>The method for install Sass and Bootstrap was mediantly NPM.
-You can view the Deployed Page on GitHub-Pages in this <a href="https://mattcuadros.github.io/Challenge_9_MediaQueries/" target="_blank">Link</a>
+You can view the Deployed Page on GitHub-Pages in this <a href="https://mattcuadros.github.io/
+Challenge_10_Sass" target="_blank">Link</a>
 
 ---
 
