@@ -18,7 +18,10 @@ $theme-colors: (
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-
+.card-img-custom{
+    @extend .card-img;
+    padding: 1rem;
+}
 
 .btn-custom{
     @extend .btn;
@@ -30,9 +33,9 @@ $theme-colors: (
 }
 
 .flex-center-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
     width: 100vw;
     height: 100vh;
 }
